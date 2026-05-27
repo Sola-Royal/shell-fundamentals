@@ -27,11 +27,14 @@ bashchmod +x todo.sh
 3. Run the script
 bash./todo.sh
 
-📸 Screenshots
+📸 <img width="797" height="266" alt="image" src="https://github.com/user-attachments/assets/8b9c4bc4-029b-4046-acdc-db0b615a6708" />
+
 1. Main Menu
 
 Add your screenshot here
-Replace this line with: ![Main Menu](screenshots/menu.png)
+Replace this line with: ![Main Menu](<img width="797" height="266" alt="image" src="https://github.com/user-attachments/assets/8f381eb8-294d-4a01-aed5-df44735aefe1" />
+) ![Uploading image.png…]()
+
 
 This is the main menu displayed every time the script runs. It shows 4 options: View tasks, Add a task, Delete a task, and Exit.
 
