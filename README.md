@@ -57,7 +57,7 @@ I want to delete "do the lms assignment" which is number 2
 ![alt text](image-1.png)
 
 
-- `After deleting it`
+- `After deleting it`<br>
   ![alt text](image-2.png)
 
 The user enters the number of the task they want to remove. The script uses sed -i to permanently delete that line from ~/todo.txt and confirms what was deleted.
