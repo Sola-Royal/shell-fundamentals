@@ -36,20 +36,20 @@ bash./todo.sh
 
 This is the main menu displayed every time the script runs. It shows 4 options: View tasks, Add a task, Delete a task, and Exit.
 
-2. Adding a Task
+## 2. Adding a Task
 
 <img width="568" height="357" alt="image" src="https://github.com/user-attachments/assets/ce4d6798-5999-4e43-8556-a4818fbed859" />
 
 
 The user is prompted to type a new task. After pressing Enter, the task is saved to ~/todo.txt and a confirmation message is shown.
 
-3. Viewing Tasks
+## 3. Viewing Tasks
 
 ![viewing_task](image.png)
 
 All saved tasks are displayed with numbered lines using the nl command. The numbers are used to identify which task to delete.
 
-4. Deleting a Task
+## 4. Deleting a Task
 
 I want to delete "do the lms assignment" which is number 2
 
@@ -62,7 +62,7 @@ I want to delete "do the lms assignment" which is number 2
 
 The user enters the number of the task they want to remove. The script uses sed -i to permanently delete that line from ~/todo.txt and confirms what was deleted.
 
-5. Exiting the Program
+## 5. Exiting the Program
 
 ![removing it](image-3.png)
 
