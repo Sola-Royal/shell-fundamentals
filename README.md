@@ -32,8 +32,8 @@ bash./todo.sh
 1. Main Menu
 
 Add your screenshot here
-Replace this line with: ![Main Menu](<img width="797" height="266" alt="image" src="https://github.com/user-attachments/assets/8f381eb8-294d-4a01-aed5-df44735aefe1" />
-) ![Uploading image.png…]()
+Replace this line with: <img width="797" height="266" alt="image" src="https://github.com/user-attachments/assets/40890e19-731f-463d-a861-eec8cf0f8f20" />
+
 
 
 This is the main menu displayed every time the script runs. It shows 4 options: View tasks, Add a task, Delete a task, and Exit.
@@ -41,7 +41,8 @@ This is the main menu displayed every time the script runs. It shows 4 options: 
 2. Adding a Task
 
 Add your screenshot here
-Replace this line with: ![Add Task](screenshots/add-task.png)
+Replace this line with: <img width="568" height="357" alt="image" src="https://github.com/user-attachments/assets/ce4d6798-5999-4e43-8556-a4818fbed859" />
+
 
 The user is prompted to type a new task. After pressing Enter, the task is saved to ~/todo.txt and a confirmation message is shown.
 
