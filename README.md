@@ -7,12 +7,12 @@ GitHub: @Sola-Royal
 
 📌 Features
 
-✅ View all tasks with numbered lines
-✅ Add a new task
-✅ Delete a task by its number
-✅ Tasks are saved to ~/todo.txt and persist between sessions
-✅ Input validation (empty tasks and invalid numbers are rejected)
-✅ Runs in a loop until you choose to exit
+✅ View all tasks with numbered lines <br>
+✅ Add a new task<br>
+✅ Delete a task by its number<br>
+✅ Tasks are saved to ~/todo.txt and persist between sessions<br>
+✅ Input validation (empty tasks and invalid numbers are rejected)<br>
+✅ Runs in a loop until you choose to exit<br>
 
 
 📁 Files
@@ -27,12 +27,10 @@ bashchmod +x todo.sh
 3. Run the script
 bash./todo.sh
 
-📸 <img width="797" height="266" alt="image" src="https://github.com/user-attachments/assets/8b9c4bc4-029b-4046-acdc-db0b615a6708" />
 
-1. Main Menu
+## 1. Main Menu
 
-Add your screenshot here
-Replace this line with: <img width="797" height="266" alt="image" src="https://github.com/user-attachments/assets/40890e19-731f-463d-a861-eec8cf0f8f20" />
+<img width="797" height="266" alt="image" src="https://github.com/user-attachments/assets/40890e19-731f-463d-a861-eec8cf0f8f20" />
 
 
 
@@ -40,34 +38,37 @@ This is the main menu displayed every time the script runs. It shows 4 options: 
 
 2. Adding a Task
 
-Add your screenshot here
-Replace this line with: <img width="568" height="357" alt="image" src="https://github.com/user-attachments/assets/ce4d6798-5999-4e43-8556-a4818fbed859" />
+<img width="568" height="357" alt="image" src="https://github.com/user-attachments/assets/ce4d6798-5999-4e43-8556-a4818fbed859" />
 
 
 The user is prompted to type a new task. After pressing Enter, the task is saved to ~/todo.txt and a confirmation message is shown.
 
 3. Viewing Tasks
 
-Add your screenshot here
-Replace this line with: ![View Tasks](screenshots/view-tasks.png)
+![viewing_task](image.png)
 
 All saved tasks are displayed with numbered lines using the nl command. The numbers are used to identify which task to delete.
 
 4. Deleting a Task
 
-Add your screenshot here
-Replace this line with: ![Delete Task](screenshots/delete-task.png)
+I want to delete "do the lms assignment" which is number 2
+
+- `before pressing 3 for delete number 2 on the list` 
+![alt text](image-1.png)
+
+
+- `After deleting it`
+  ![alt text](image-2.png)
 
 The user enters the number of the task they want to remove. The script uses sed -i to permanently delete that line from ~/todo.txt and confirms what was deleted.
 
 5. Exiting the Program
 
-Add your screenshot here
-Replace this line with: ![Exit](screenshots/exit.png)
+![removing it](image-3.png)
 
 When the user selects option 4, the script prints a goodbye message and exits cleanly using exit 0.
 
-🧠 What I Learned
+ ## What I Learned
 Through this project, I learned how to write an interactive Bash script from scratch. Key concepts I practiced include:
 
 Using variables to store file paths ($HOME, TODO_FILE)
@@ -82,5 +83,5 @@ Building a menu loop with while true and case statements
 🛠 Technologies Used
 
 Bash (Shell Scripting)
-Linux/macOS Terminal
+Linux Terminal
 Git & GitHub
